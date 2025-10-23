@@ -1,0 +1,6 @@
+if SHIELD_LE_BUTTON
+
+config ZMK_KEYBOARD_NAME
+    default "le-button"
+
+endif # SHIELD_LE_BUTTON
